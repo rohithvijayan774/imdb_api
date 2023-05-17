@@ -61,7 +61,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemBuilder: (context, index) {
                       final movie = movies[index];
                       if (movies.isEmpty) {
-                        print("keri");
                         return const Center(
                           child: CircularProgressIndicator(
                             backgroundColor: Colors.black,
