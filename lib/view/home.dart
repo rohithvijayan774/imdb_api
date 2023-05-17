@@ -48,7 +48,11 @@ class _HomeScreenState extends State<HomeScreen> {
           onRefresh: fetch,
           child: movies.isEmpty
               ? const Center(
-                  child: Text("empty"),
+                  child: Image(
+                    image: AssetImage('lib/assets/wifi-off.png'),
+                    height: 50,
+                    color: Colors.grey,
+                  ),
                 )
               : Padding(
                   padding: const EdgeInsets.only(left: 10, right: 10),
