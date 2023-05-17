@@ -44,4 +44,4 @@ app.*.map.json
 /android/app/release
 
 #gitignore(api)
-lib/controller/api_controller.dart
+lib/const/api_key.dart
